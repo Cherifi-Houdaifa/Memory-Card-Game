@@ -1,0 +1,36 @@
+.end {
+    margin-top: 10%;
+    align-self: flex-start;
+    width: 30%;
+    box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+    border-radius: 10px;
+}
+.end > p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.end > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.end > div > input {
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms,background 200ms;
+}
+.end > div > input:hover {
+    transform: translateY(-2px);
+}

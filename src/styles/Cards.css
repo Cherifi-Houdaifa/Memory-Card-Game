@@ -1,0 +1,9 @@
+.cards {
+    aspect-ratio: 1 / 1;
+    width: 41vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    flex: 1 1 1;
+    gap: 10px;
+}
